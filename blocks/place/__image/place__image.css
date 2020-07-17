@@ -6,22 +6,22 @@
 
 @media (max-width: 1024px) {
   .place__image {
-    max-width: 440px;
-    height: auto;
+    max-width: 100%;
     grid-area: image;
    }
 }
 
 @media (max-width: 768px) {
   .place__image {
-    max-width: 340px;;
+    max-width: 100%;
     grid-area: image;
    }
 }
 
+
 @media (max-width: 320px) {
   .place__image {
-    max-width: 320px;;
+    max-width: 100%;
     grid-area: image;
    }
 }

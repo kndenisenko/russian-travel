@@ -2,19 +2,25 @@
   max-width: 484px;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   grid-area: url;
 }
 
 @media (max-width: 1024px) {
   .place__website {
-    max-width: 456px;
+    max-width: 100%;
   }
 }
 
 @media (max-width: 1024px) {
   .place__website {
-    max-width: 352px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .place__website {
+  display: none;
   }
 }
 

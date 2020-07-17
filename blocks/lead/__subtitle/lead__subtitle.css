@@ -1,8 +1,6 @@
 .lead__subtitle {
   max-width: 640px;
   max-height: 72px;
-  font-family: Inter;
-  font-style: normal;
   font-weight: normal;
   font-size: 30px;
   line-height: 36px;
@@ -14,32 +12,16 @@
 
 @media (max-width: 768px) {
 .lead__subtitle {
-  max-width: 640px;
-  max-height: 72px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  /* font-size: 30px; */
-  font-size: calc(0.03125 * 100vw + 6px); /* шрифт посчитан также, как и АААААААА, проверить названия всех css-файлов! */
+  font-size: calc(0.03125 * 100vw + 6px);
   line-height: 120%;
-  text-align: center;
-  color: #FFFFFF;
   margin: 32px 0 0 0;
 }
 }
 
 @media (max-width: 320px) {
 .lead__subtitle {
-  max-width: 640px;
-  max-height: 72px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: calc(0.03125 * 100vw + 6px); /* шрифт посчитан также, как и АААААААА, проверить названия всех css-файлов! */
+  font-size: calc(0.03125 * 100vw + 6px);
   line-height: 125%;
-  text-align: center;
-  color: #FFFFFF;
   margin: 16px 0 0 0;
-
   }
-  }
+}

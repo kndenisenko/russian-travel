@@ -14,7 +14,7 @@
     /* identical to box height, or 100% */
     margin-bottom: 32px;
  }
- .footer__link:nth-child(5) {
+ .footer__link:last-child {
    margin-bottom: 48px;
  }
 }
