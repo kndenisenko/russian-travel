@@ -12,12 +12,6 @@
 }
 }
 
-@media (max-width: 768px) {
-.lead__image {
-  margin-top: 56px;
-}
-}
-
 @media (max-width: 320px) {
   .lead__image {
     margin-top: 40px;

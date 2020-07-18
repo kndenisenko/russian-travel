@@ -1,7 +1,7 @@
 @import url(./__title/place__title.css);
 @import url(./__website/place__website.css);
 @import url(./__website/__url-heading/place__website-url-heading.css);
-@import url(./__website/__link/place__website-link.css);
+@import url(./__link/place__website-link.css);
 @import url(./__image/place__image.css);
 @import url(./__paragraph/place__paragraph.css);
 @import url(./__paragraph-section/place__paragraph-section.css);
@@ -37,20 +37,6 @@
 }
 
 @media (max-width: 500px) {
-  .place {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(5, min-content);
-    row-gap: 32px;
-    grid-template-areas:
-    "title"
-    "image"
-    "paragraph"
-    "paragraph";
-    margin: 0 0 48px 0;
-  }
-}
-
-@media (max-width: 320px) {
   .place {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(5, min-content);

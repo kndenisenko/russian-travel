@@ -12,8 +12,10 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 745px) { /* смена состояния футера, чтобы он не ломался при разрешении ниже 745px */
   .footer__menu {
-  flex-direction: column;
-  }
+    flex-direction: column;
+    }
 }
+
+
