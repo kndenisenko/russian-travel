@@ -1,4 +1,4 @@
-/* * Общие параметры страницы прописаны в root */
+/* * Общие параметры страницы в root */
 
 @font-face {
   font-family: 'inter';
@@ -29,7 +29,7 @@
   background-color: #2A2C2F;
   font-family: Inter, Arial, sans-serif; /* Прописываем один шрифт везде и для всех */
   font-style: normal; /* аналогично с начертанием */
-  color: #FFFFFF;; /* и с цветом */
+  color: #FFF;; /* и с цветом */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
