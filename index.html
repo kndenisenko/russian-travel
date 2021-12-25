@@ -8,24 +8,25 @@
   <link rel="stylesheet" href="./works.css">
   <link rel="stylesheet" href="./vendor/_dev.css">
 <!-- ! удалить рабочий файл стилей перед релизом -->
+<!-- ! ссыылка в блоке плэйсес растягиваются вширь, исправить -->
   <title>Путешествие по России</title>
 </head>
 <body class="root">
   <div class="page">
-    <div class="header header_shift-top">
+    <header class="header header_shift-top">
       <div class="header__logo"></div>
       <div class="header__link-container">
         <a class="header__lang-link" href="#">Ru</a>
         <a class="header__lang-link" href="#">En</a>
       </div>
-    </div>
-    <div class="lead lead_shift-top">
+    </header>
+    <section class="lead lead_shift-top">
       <h1 class="lead__header">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь</p>
       <img class="lead__image" src="./images/lead-polka.jpg" alt="Женщина спит на боковом месте в плацкартном вагоне">
       <p class="lead__caption">ваша полка — верхняя</p>
-    </div>
-    <div class="intro intro_position">
+    </section>
+    <section class="intro intro_position">
       <h2 class="intro__title">Чего мы там не видели?</h2>
       <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="intro__list">
@@ -35,8 +36,8 @@
         <li><span class="intro__accent">Природных заповедников</span> 105</li>
         <li><span class="intro__accent">Аэропортов</span> 241</li>
       </ul>
-    </div>
-    <div class="photo-grid photo-grid_position">
+    </section>
+    <section class="photo-grid photo-grid_position">
       <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="">
       <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="">
       <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="">
@@ -49,8 +50,8 @@
       <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="">
       <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="">
       <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="">
-    </div>
-    <div class="places places_position">
+    </section>
+    <section class="places places_position">
       <div class="place">
         <h2 class="place__title">Куршская коса</h2>
         <img src="./images/place-kosa.jpg" alt="" class="place__image">
@@ -110,7 +111,13 @@
         <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
       </div>
       </div>
-    </div>
+    </section>
+    <section class="cover cover_position">
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__url" target="_blank">
+        <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+      </a>
+    </section>
   </div>
 </body>
 </html>
