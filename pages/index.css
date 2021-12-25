@@ -22,9 +22,10 @@
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__accent/intro__accent.css);
 /* * блок photo-grid */
-@import url();
-@import url();
-@import url();
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/_position/photo-grid_position.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+/* * блок places */
 @import url();
 @import url();
 @import url();
