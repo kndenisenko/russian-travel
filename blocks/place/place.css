@@ -1,0 +1,16 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, min-content);
+  row-gap: 48px;
+  column-gap: 40px;
+  grid-template-areas:
+  "header website"
+  "image paragraph"
+  "image paragraph";
+  margin-bottom: 80px;
+}
+
+.place:last-child {
+  margin-bottom: 0;
+  }
