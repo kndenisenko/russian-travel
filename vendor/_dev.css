@@ -3,6 +3,11 @@
 
     Выделение тэгов блоков стилем границ / Block tag distinguishing by border style */
 
+body {
+  outline-style: groove;
+  outline-color: lightslategrey;
+}
+
 header {
   outline-style: groove;
   outline-color: lightslategrey;

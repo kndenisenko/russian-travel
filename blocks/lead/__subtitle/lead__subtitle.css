@@ -7,3 +7,36 @@
   text-align: center;
   margin: 32px auto 0 auto;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    font-size: calc( 0.03125 * 100vw + 6px ); /*  Шрифт посчитан через calc() по формуле y=mx+b из статьи https://css-live.ru/articles/matematika-css-shlyuzov.html. */
+    margin: 32px auto 0 auto;
+}
+}
+
+@media screen and (max-width: 676px) {
+  .lead__subtitle {
+    margin: 32px 16px 0 16px;
+}
+}
+
+
+/*
+y = mx + b
+320px [x1]; 16px [y1]
+768px [x2]; 30px [y2]
+
+m = font_size_increase / viewport_increase
+m = (y2 - y1) / (x2 - x1)
+m = (30 - 16) / (768 – 320)
+m = 14 / 448
+m = 0.03125
+
+b = y - mx
+b = y - 0.03125x
+
+b = 16 - 0.03125 × 320
+b = 16 – 10,
+b = 6
+*/
