@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  line-height: 36px;  /* или 120% */
+  line-height: 120%;
   text-align: center;
   margin: 32px auto 0 auto;
 }
@@ -15,28 +15,14 @@
 }
 }
 
+@media screen and (max-width: 761px) {
+  .lead__subtitle {
+    line-height: 125%;
+}
+}
+
 @media screen and (max-width: 676px) {
   .lead__subtitle {
     margin: 32px 16px 0 16px;
 }
 }
-
-
-/*
-y = mx + b
-320px [x1]; 16px [y1]
-768px [x2]; 30px [y2]
-
-m = font_size_increase / viewport_increase
-m = (y2 - y1) / (x2 - x1)
-m = (30 - 16) / (768 – 320)
-m = 14 / 448
-m = 0.03125
-
-b = y - mx
-b = y - 0.03125x
-
-b = 16 - 0.03125 × 320
-b = 16 – 10,
-b = 6
-*/
