@@ -9,3 +9,23 @@
   margin: 245px 0 32px 0;
   z-index: 2;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    margin: 195px 0 32px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    font-size: 10vw;
+    line-height: 109%;
+    margin: 115px 0 32px 0;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .cover__title {
+    margin: 33px 16px 16px 16px;
+  }
+}
