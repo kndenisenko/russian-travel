@@ -22,9 +22,8 @@
 @media screen and (max-width: 767px) {
   .place__title {
     max-width: 100%;
-    font-size: calc(0.022371365	* 100vw + 24.84116331px);
+    font-size: calc(0.022371365 * 100vw + 24.84116331px);
     margin: 0 auto;
-
   }
 }
 

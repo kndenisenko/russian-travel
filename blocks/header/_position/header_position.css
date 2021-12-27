@@ -2,15 +2,14 @@
   margin: 24px 48px 0 48px;
 }
 
-
 @media screen and (max-width: 768px) {
-  .header_position{
-  margin: 28px 24px 0 24px;
+  .header_position {
+    margin: 28px 24px 0 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .header_positionp{
-  margin: 16px 16px 0 16px;
+  .header_positionp {
+    margin: 16px 16px 0 16px;
   }
 }

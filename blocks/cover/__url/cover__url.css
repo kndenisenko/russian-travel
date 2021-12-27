@@ -6,17 +6,17 @@
 }
 
 .cover__url::before {
-  content: '';
-  background: #2A2C2F;
+  content: "";
+  background: #2a2c2f;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: .3;
-  transition: opacity .5s ease-out;
+  opacity: 0.3;
+  transition: opacity 0.5s ease-out;
 }
 
 .cover__url:hover:before {
-  opacity: .8;
+  opacity: 0.8;
 }

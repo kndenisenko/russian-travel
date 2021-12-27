@@ -1,35 +1,34 @@
 /* * Общие параметры страницы в root */
 
 @font-face {
-  font-family: 'inter';
+  font-family: "inter";
   src: url(../../vendor/inter_font/Inter-Regular.woff2) format("woff2"),
-  url(../../vendor/inter_font/Inter-Regular.woff) format("woff");
+    url(../../vendor/inter_font/Inter-Regular.woff) format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'inter';
+  font-family: "inter";
   src: url(../../vendor/inter_font/Inter-Bold.woff2) format("woff2"),
-  url(../../vendor/inter_font/Inter-Bold.woff) format("woff");
+    url(../../vendor/inter_font/Inter-Bold.woff) format("woff");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'inter';
-  src:   url(../../vendor/inter_font/Inter-Black.woff2) format("woff2"),
-  url(../../vendor/inter_font/Inter-Black.woff) format("woff");
+  font-family: "inter";
+  src: url(../../vendor/inter_font/Inter-Black.woff2) format("woff2"),
+    url(../../vendor/inter_font/Inter-Black.woff) format("woff");
   font-weight: 900;
   font-style: normal;
 }
 
-
 .root {
-  background-color: #2A2C2F;
+  background-color: #2a2c2f;
   font-family: Inter, Arial, sans-serif; /* Прописываем один шрифт везде и для всех */
   font-style: normal; /* аналогично с начертанием */
-  color: #FFF;; /* и с цветом */
+  color: #fff; /* и с цветом */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

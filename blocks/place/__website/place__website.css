@@ -6,7 +6,6 @@
   grid-area: website;
 }
 
-
 @media screen and (max-width: 768px) {
   .place__website {
     max-width: 352px;

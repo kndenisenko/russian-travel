@@ -10,19 +10,21 @@
 
 @media screen and (max-width: 768px) {
   .lead__subtitle {
-    font-size: calc( 0.03125 * 100vw + 6px ); /*  Шрифт посчитан через calc() по формуле y=mx+b из статьи https://css-live.ru/articles/matematika-css-shlyuzov.html. */
+    font-size: calc(
+      0.03125 * 100vw + 6px
+    ); /*  Шрифт посчитан через calc() по формуле y=mx+b из статьи https://css-live.ru/articles/matematika-css-shlyuzov.html. */
     margin: 32px auto 0 auto;
-}
+  }
 }
 
 @media screen and (max-width: 761px) {
   .lead__subtitle {
     line-height: 125%;
-}
+  }
 }
 
 @media screen and (max-width: 676px) {
   .lead__subtitle {
     margin: 32px 16px 0 16px;
-}
+  }
 }
