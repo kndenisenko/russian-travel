@@ -5,3 +5,17 @@
   justify-content: flex-end;
   grid-area: website;
 }
+
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    max-width: 100%;
+    margin: 0 auto 0 16px;
+  }
+}

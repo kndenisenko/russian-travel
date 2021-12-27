@@ -2,7 +2,35 @@
   max-width: 460px;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px; /* or 106% */
+  line-height: 106%;
   margin: 0;
   grid-area: header;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    max-width: 340px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .place__title {
+    max-width: 100%;
+    font-size: calc(0.022371365	* 100vw + 24.84116331px);
+    margin: 0 auto;
+
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .place__title {
+    max-width: 100%;
+    margin: 0 16px 0 16px;
+  }
 }

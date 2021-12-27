@@ -1,3 +1,28 @@
 .places_position {
   margin: 92px auto 0 auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .places_position {
+    margin: 92px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .places_position {
+    margin: 92px 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places_position {
+    margin: 92px 0 0 0;
+  }
+}
+
+
+/* @media screen and (max-width: 320px) {
+  .places_position {
+    margin: 88px auto 0 auto;
+  }
+} */

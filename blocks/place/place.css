@@ -14,3 +14,32 @@
 .place:last-child {
   margin-bottom: 0;
   }
+
+@media screen and (max-width: 1024px) {
+  .place {
+    column-gap: 32px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .place {
+    column-gap: 28px;
+    margin-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, min-content);
+    row-gap: 32px;
+    grid-template-areas:
+    "header"
+    "website"
+    "image"
+    "paragraph"
+    "paragraph";
+    margin-bottom: 50px;
+  }
+}
