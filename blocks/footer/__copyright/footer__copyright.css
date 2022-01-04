@@ -2,9 +2,17 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 114%;
+  color: white;
   text-align: right;
   margin-left: auto;
+  transition: opacity .5s ease-out;
 }
+
+.footer__copyright:hover {
+  text-decoration: underline;
+  opacity: .8;
+}
+
 
 @media screen and (max-width: 320px) {
   .footer__copyright {

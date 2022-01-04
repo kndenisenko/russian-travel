@@ -1,29 +1,5 @@
-.page {
-  background-color: #2a2c2f;
-  font-family: Inter, Arial, sans-serif; /* Прописываем один шрифт везде и для всех */
-  font-style: normal; /* аналогично с начертанием */
-  color: #fff; /* и с цветом */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  max-width: 1280px;
-  margin: 0 auto;
-}
 
-.page__footer {
-  margin: 92px 48px 24px 48px;
-}
 
-@media screen and (max-width: 768px) {
-  .page__footer {
-    margin: 92px 24px 24px 24px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .page__footer {
-    margin: 64px auto 24px 24px;
-  }
-}
 
 
 
