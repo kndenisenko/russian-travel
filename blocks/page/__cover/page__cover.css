@@ -2,10 +2,6 @@
   margin: 92px auto 0 auto;
 }
 
-.page__cover {
-  margin: 92px auto 0 auto;
-}
-
 @media screen and (max-width: 1024px) {
   .page__cover {
     margin: 92px 0 0 0;
