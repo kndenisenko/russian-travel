@@ -16,6 +16,7 @@
 @media screen and (max-width: 768px) {
   .place__title {
     font-size: 42px;
+    line-height: 46px;
     max-width: 340px;
   }
 }
@@ -23,13 +24,15 @@
   .place__title {
     max-width: 100%;
     font-size: calc(0.022371365 * 100vw + 24.84116331px);
-    margin: 0 auto;
+    margin: 0 0 0 16px;
   }
 }
 
 @media screen and (max-width: 360px) {
   .place__title {
     max-width: 100%;
+    line-height: 35px;
+
     margin: 0 16px 0 16px;
   }
 }

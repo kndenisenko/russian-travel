@@ -23,3 +23,8 @@
       margin: 92px 0 0 0;
     }
   }
+  @media screen and (max-width: 320px) {
+    .page__places {
+      margin: 64px 0 0 0;
+    }
+  }

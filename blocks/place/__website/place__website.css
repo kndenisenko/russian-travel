@@ -18,3 +18,10 @@
     margin: 0 auto 0 16px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    max-width: 100%;
+    margin: 0 auto 0 16px;
+  }
+}
