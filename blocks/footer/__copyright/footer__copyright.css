@@ -5,21 +5,19 @@
   color: white;
   text-align: right;
   margin-left: auto;
-  transition: opacity .5s ease-out;
+  transition: opacity 0.5s ease-out;
 }
 
 .footer__copyright:hover {
   text-decoration: underline;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
   .footer__copyright {
-
     margin: 0;
   }
 }
-
 
 @media screen and (max-width: 320px) {
   .footer__copyright {

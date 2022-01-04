@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   min-height: 740px;
-  max-width:100%;
+  max-width: 100%;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
@@ -22,14 +22,14 @@
   top: 0;
   right: 0;
   bottom: 0;
-  background: #2A2C2F;
+  background: #2a2c2f;
   opacity: 0.3;
   z-index: -1;
-  transition: opacity .5s ease-out;
+  transition: opacity 0.5s ease-out;
 }
 
 .cover__background:hover::before {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1188px) {
