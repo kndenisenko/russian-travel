@@ -51,6 +51,7 @@
 
 /* * блок cover */
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/_position/cover_position.css);
 @import url(../blocks/cover/__url/cover__url.css);
 @import url(../blocks/cover/__title/cover__title.css);
