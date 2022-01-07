@@ -4,11 +4,11 @@
   line-height: 22px; /* identical to box height, or 122% */
   text-decoration-line: underline;
   color: #fff;
-  transition: opacity .5s ease-out;
+  transition: opacity 0.5s ease-out;
 }
 
 .place__link:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 /* ! Проверить параметры шрифта для ссылки и для подписи URL */
