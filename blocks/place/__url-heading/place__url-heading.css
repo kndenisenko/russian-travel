@@ -3,6 +3,14 @@
   line-height: 12px; /* identical to box height, or 100% */
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #aaa;
   margin: 0 0 12px 0;
+}
+
+/* ! Проверить параметры шрифта для ссылки и для подписи URL */
+
+@media screen and (max-width: 768px) {
+  .place__link {
+    /* line-height: 12px; */
+  }
 }

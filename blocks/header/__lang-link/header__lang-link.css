@@ -5,13 +5,21 @@
   text-decoration: none;
   color: #fff;
   margin-right: 18px;
-  transition: opacity 0.5s ease-out;
+  transition: opacity .5s ease-out;
 }
 
 .header__lang-link:hover {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 .header__lang-link:last-child {
   margin-right: 0;
+}
+
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

@@ -1,9 +1,0 @@
-.cover_position {
-  margin: 92px 0 0 0;
-}
-
-@media screen and (max-width: 1188px) {
-  .cover_position {
-    margin: 0;
-  }
-}

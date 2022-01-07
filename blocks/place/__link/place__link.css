@@ -3,10 +3,12 @@
   font-size: 18px;
   line-height: 22px; /* identical to box height, or 122% */
   text-decoration-line: underline;
-  color: #ffffff;
-  transition: opacity 0.5s ease-out;
+  color: #fff;
+  transition: opacity .5s ease-out;
 }
 
 .place__link:hover {
-  opacity: 0.8;
+  opacity: .8;
 }
+
+/* ! Проверить параметры шрифта для ссылки и для подписи URL */

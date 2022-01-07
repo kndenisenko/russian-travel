@@ -25,30 +25,40 @@
   background: #2a2c2f;
   opacity: 0.3;
   z-index: -1;
-  transition: opacity 0.5s ease-out;
+  transition: opacity .5s ease-out;
 }
 
 .cover__background:hover::before {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 @media screen and (max-width: 1188px) {
   .cover__background {
     min-height: 640px;
-    max-width: 1024px;
+    /* max-width: 1024px; */
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 945px) {
   .cover__background {
     min-height: 480px;
-    max-width: 768px;
+    /* max-width: 768px; */
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .cover__background {
-    min-height: 200px;
-    min-width: 320px;
+    min-height: 480px;
+    min-width: 100%;
   }
 }
+
+
+@media screen and (max-width: 320px) {
+  .cover__background {
+    min-height: 300px;
+    min-width: 320px;
+    background-size: cover;
+  }
+}
+
