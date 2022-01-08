@@ -1,24 +1,19 @@
 .page__places {
-  margin: 92px auto 0 auto;
+  margin: 90px auto 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
   .page__places {
-    margin: 92px auto 0 auto;
+    margin: 88px auto 0 auto;
   }
 }
 
 @media screen and (max-width: 970px) {
   .page__places {
-    margin: 92px 24px 0 24px;
+    margin: 91px 24px 0 24px;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .page__places {
-    margin: 92px 0 0 0;
-  }
-}
 @media screen and (max-width: 320px) {
   .page__places {
     margin: 64px 0 0 0;
